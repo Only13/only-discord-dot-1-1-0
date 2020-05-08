@@ -170,3 +170,5 @@ async def hello( ctx, amount = 1 ):
 #client.run( token )
 
 token =  os.environ.get('BOT_TOKEN')
+
+bot.run(str(token))
